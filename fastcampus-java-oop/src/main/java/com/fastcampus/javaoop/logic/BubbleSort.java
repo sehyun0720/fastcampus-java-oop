@@ -3,7 +3,11 @@ package com.fastcampus.javaoop.logic;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< Updated upstream
 public class BubbleSort<T extends Comparable<T>> implements Sort<T>{
+=======
+public class BubbleSort<T extends Comparable<T>> implements Sort<T> {
+>>>>>>> Stashed changes
 
     @Override
     public List<T> sort(List<T> list) {
